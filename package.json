@@ -1,0 +1,24 @@
+{
+  "name": "node-apis",
+  "version": "1.0.0",
+  "description": "API Endpoints",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badra25ml/node-apis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badra25ml/node-apis/issues"
+  },
+  "homepage": "https://github.com/badra25ml/node-apis#readme",
+  "dependencies": {
+    "MD5": "^1.2.2",
+    "firebase": "^2.2.7",
+    "request": "^2.58.0"
+  }
+}
