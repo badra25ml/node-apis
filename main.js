@@ -4,7 +4,7 @@ var fs = require("fs"),
    url = require('url'),
    exec = require("child_process").exec;
 
-http.createServer(responseHandler).listen(8888);
+http.createServer(responseHandler).listen(process.env.PORT || 8888);
 
 function responseHandler(req, res) {
  var md5 = require('MD5');
